@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+background-color: black;
+display: flex;
+justify-content: space-around;
+height: 120px;
+}
+
+body{
+    background-color: rgb(185, 185, 12);
+}
+nav{
+    display: flex;
+    position: relative;
+   flex-wrap: wrap;
+    top: 40px;
+    
+}
+
+nav a{
+   text-decoration: none;
+   color: aliceblue; 
+   margin-left: 15px;
+   background-color: rgb(49, 66, 66);
+   height: 25px;
+   border-radius: 20px;
+   padding: 10px;
+   font-size: 15px;
+   transition: all 0.5s ease;
+}
+nav a:hover{
+    background-color: yellow;
+    color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 280px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+footer h1{
+    text-align: left;
+    font-size: 23px;
+}
+footer img{
+position: relative;
+right: -290px;
+top: -75px;
+flex-wrap: wrap;
+}
+footer span{
+    color: aquamarine;
+}
+ header img{
+    top: -10px;
+}
+footer nav{
+    top: 80px;
+}
+.qwerr{
+    background-color: yellow;
+    color: black;
+}
+.qwerr:hover{
+    background-color: goldenrod;
+    
+}
+article {
+     background-color: white;
+    padding: ;
+    width: 400px;
+    margin-bottom:50px ;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+article p {
+    top: 10px;
+}
+
+
+.news{
+    width: 800px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
